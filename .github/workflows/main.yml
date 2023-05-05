@@ -20,8 +20,8 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Run container
-      run: rpm run lint
+    - name: run container
+      run: npm run lint
 
     - name: Run tests Coverage
       run: npm run test:coverage
